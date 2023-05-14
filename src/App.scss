@@ -1,0 +1,26 @@
+$primary-color: "white";
+$font-stack: Helvetica, sans-serif;
+
+@import 'animate.css';
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+  }
+
+@font-face{ 
+    font-family: 'Arial, Helvetica, sans-serif';
+    src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+}
+@font-face{ 
+    font-family: 'La Buelle Aurore';
+    src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+@font-face{ 
+    font-family: 'Coolvetica';
+    src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+}
+
+input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
